@@ -48,11 +48,11 @@ $(document).ready(function() {
 </style>
 <div id="console">
     <div id="consolebox">Loading...</div>
-    
-    
+
+
     <div id="submitCommand">
       <form id="consoleCommand" style="display:inline" method="POST" action="">
-            <input type="text" name="consoleCommand" size="195" value="enter a command..." onClick="this.value=''"/>
+	<input type="text" name="consoleCommand" style="width: 100%;" value="enter a command..." onClick="this.value=''"/>
       </form>
     </div>
 </div>
